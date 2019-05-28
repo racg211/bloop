@@ -36,3 +36,54 @@ section{
     background-position: center;
     background-image: url('../assets/PNG/Curva1.png');
 }
+
+
+
+/*HOME*/
+
+.texto-inicio{
+  font-size: 5em;
+  color: #29a9e1;
+}
+
+.parrafo-inicio{
+  font-size: 1.5em;
+
+}
+
+
+.boton-home1{
+   width: 150px;
+  height: auto;
+  border-radius: 40px;
+  background:  #29a9e1;
+  color: #030819;
+}
+
+.boton-home1:hover{
+   transform: scale(1.2);
+}
+
+
+.boton-home2{
+  width: 170px;
+  height: auto;
+  border-radius: 40px;
+  background:  rgba(41, 169, 224, 0.3);
+  margin-left: 5%;
+  color: white;
+  border: 2px solid #29a9e1;
+}
+
+.boton-home2:hover{
+    transform: scale(1.2); 
+}
+
+.rrss{
+  margin-top: 12%;
+}
+
+.rrss-hr{
+
+  margin-top: 25%;
+}
