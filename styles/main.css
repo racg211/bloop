@@ -8,7 +8,7 @@ body{
   color: white;
   margin: 0 auto;
   padding: 0;
-  font-family: Bebas, sans-serif; 
+  font-family: Bebas, sans-serif;
 }
 
 hr{
@@ -32,7 +32,7 @@ section{
 
 .fill {
     overflow: hidden;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-image: url('../assets/PNG/Curva1.png');
 }
@@ -76,7 +76,7 @@ section{
 }
 
 .boton-home2:hover{
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 .rrss{
@@ -90,7 +90,7 @@ section{
 
 
 .conocenos-parrafo{
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 
@@ -112,6 +112,9 @@ section{
   color: #29a9e1;
 }
 
+.fa-play-circle{
+  color: #29a9e1;
+}
 
 
 
@@ -141,18 +144,18 @@ section{
 .form-control{
   background:#030819;
   border: 2px solid  #29a9e1;
-  border-radius: 0; 
+  border-radius: 0;
 }
  .enviar{
   width: 140px;
   height: auto;
   border-radius: 40px;
-  color: #030819; 
+  color: #030819;
  }
 
  .enviar:hover{
   background: #030819;
-  color: #29a9e1; 
+  color: #29a9e1;
   transform: scale(1.1);
  }
 
@@ -219,27 +222,27 @@ li.menu-footer{
   width: 200px;
   height: auto;
   font-size: 1.3em;
-  color: #030819; 
+  color: #030819;
 }
 
 .boton-more:hover{
   color: #29a9e1;
   background:#030819;
-  transform: scale(1.2); 
+  transform: scale(1.2);
   border-color: #29a9e1;
 
 }
 
 
 .follow-p{
-  display: inline-block; 
+  display: inline-block;
   justify-content: center;
   font-size: 2em;
 }
 
 .follow-icon{
-  width: 40px; 
-  justify-content: 
+  width: 40px;
+  justify-content:
   center;text-align: center;
 }
 
@@ -287,3 +290,18 @@ textarea.form-control:focus{
 
 
 
+
+
+
+/* HR */
+
+.top-container{
+width:100%;
+height:auto;
+}
+.top-container img{
+width:100%;
+height:100%;
+
+z-index:1;
+}
