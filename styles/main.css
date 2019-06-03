@@ -255,6 +255,7 @@ li.menu-footer{
 }
 
 
+<<<<<<< HEAD
 .boton-enviar{
   background-color:#29a9e1;
   width: 200px;
@@ -274,6 +275,8 @@ li.menu-footer{
 
 
 
+=======
+>>>>>>> 6d78073551b6203a43a1226aa44d267debbf985a
 .follow-p{
   display: inline-block;
   justify-content: center;
@@ -317,13 +320,21 @@ li.menu-footer{
 }
 
 input.form-control:focus{
+<<<<<<< HEAD
   background-color: transparent;
+=======
+  background-color: rgba(41, 169, 224, 0.9);
+>>>>>>> 6d78073551b6203a43a1226aa44d267debbf985a
   border-color: transparent;
   color: white;
 }
 
 textarea.form-control:focus{
+<<<<<<< HEAD
   background-color: transparent;
+=======
+  background-color: rgba(41, 169, 224, 0.9);
+>>>>>>> 6d78073551b6203a43a1226aa44d267debbf985a
   border-color: transparent;
   color: white;
 }
@@ -345,6 +356,9 @@ height:100%;
 
 z-index:1;
 }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 6d78073551b6203a43a1226aa44d267debbf985a
