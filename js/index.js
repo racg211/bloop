@@ -29,7 +29,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
     var scroll = $(window).scrollTop();
       if (scroll > 1) {
-        $(".navbar").css("background-color" , "rgba(192, 192, 192, 0.3)");
+        $(".navbar").css("background-color" , "rgba(192, 192, 192, 1)");
       }
 
       else{
@@ -38,6 +38,22 @@ $(document).ready(function(){
   });
 
 
+  let scrollHeight = window.scrollY;
+  let header = document.getElementById("header");
+
+window.onscroll = function() {
+  if (window.scrollY > scrollHeight) {
+    header.classList.add("slide-up");
+  } else if (window.scrollY < scrollHeight) {
+    header.classList.remove("slide-up");
+  }
+  scrollHeight = window.scrollY;
+};
+
+ 
+ header.onmouseover = function(){
+  header.classList.remove("slide-up")
+}
 
 
 
@@ -47,4 +63,7 @@ $(document).ready(function(){
  
 
 });
+
+
+
 
