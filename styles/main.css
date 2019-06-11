@@ -39,7 +39,9 @@ hr{
 
 
 
-
+.full{
+  height: 100vh !important;
+}
 
 
 .navbar{
