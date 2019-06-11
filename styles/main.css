@@ -6,8 +6,6 @@
 body{
   background: #030819;
   color: white;
-  margin: 0 auto;
-  padding: 0;
   font-family: Bebas, sans-serif;
   margin-top: 90px;
 }
@@ -16,10 +14,8 @@ hr{
   background: white;
 }
 
-section{
+.full{
   height: 100vh !important;
-  position: relative;
-
 }
 
 .background2{
@@ -32,14 +28,7 @@ section{
 }
 
 
-.center{
-   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+
 
 .fill {
     overflow: hidden;
