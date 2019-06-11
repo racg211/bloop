@@ -355,3 +355,26 @@ height:100%;
 
 z-index:1;
 }
+
+
+@media screen and (max-width: 500px){
+  .img-inicial{
+    display: none;
+  }
+
+  .img-conocenos{
+    display: none;
+  }
+
+  .fill{
+    background-image: none;
+  }
+
+  section{
+    height: auto;
+  }
+
+  .full{
+    display: auto;
+  }
+}
