@@ -39,7 +39,10 @@ hr{
 
 
 
-
+.full{
+  width: 100%;
+  height: 100vh !important;
+}
 
 
 .navbar{
@@ -113,7 +116,7 @@ hr{
 
 
 .conocenos-parrafo{
-  font-size: 1.7em;
+  font-size: 1.3em;
   margin-top: 40px;
 }
 
