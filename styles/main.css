@@ -47,22 +47,29 @@ hr{
 
 .navbar{
   background-color: transparent;
-  height: 50px;
+  height: 70px;
 }
 
-.navbar-nav .nav-link{
-  font-size: 1.3em;
-}
+
 
 .slide-up{
-  transform: translateY(-50px);
+  transform: translateY(-75px);
   -webkit-transition: ease-in .5s;
   transition: ease-in .5s;
 }
 
 
+.navbar-expand-lg .navbar-nav .nav-link{
+  font-size: 1.7em;
+}
 
+.h2-conocenos{
+  margin-top: 5%;
+}
 
+.h2-comofuunciona{
+  margin-top: 2%;
+}
 
 
 /*HOME*/
@@ -77,6 +84,9 @@ hr{
 
 }
 
+.padding-logo{
+  padding-top: 10px;
+}
 
 .boton-home1{
    width: 150px;
@@ -116,7 +126,7 @@ hr{
 
 
 .conocenos-parrafo{
-  font-size: 1.3em;
+  font-size: 1.6em;
   margin-top: 40px;
 }
 
@@ -145,7 +155,10 @@ hr{
 
 
 
-
+.h2-servicios{
+  margin-top: 3%;
+  margin-bottom: -2%;
+}
 
 
 
