@@ -124,6 +124,11 @@ hr{
   margin-top: 25%;
 }
 
+.imagen-intro-home{
+  width: 700px;
+  height: auto;
+}
+
 
 .conocenos-parrafo{
   font-size: 1.6em;
@@ -371,6 +376,79 @@ height:100%;
 
 z-index:1;
 }
+
+
+
+
+
+@media screen and (min-width: 1367px){
+  .texto-inicio{
+    font-size: 5.5rem;
+  }
+
+  .parrafo-inicio{
+    font-size: 1.8rem;
+
+  }
+
+  .boton-home1{
+  width: 180px;
+  height: auto;
+  border-radius: 40px;
+  background:  #29a9e1;
+  color: #030819;
+  font-size: 1.5rem;
+}
+
+.boton-home1:hover{
+   transform: scale(1.2);
+}
+
+
+.boton-home2{
+  width: 180px;
+  height: auto;
+  border-radius: 40px;
+  background:  rgba(41, 169, 224, 0.3);
+  margin-left: 5%;
+  color: white;
+  border: 2px solid #29a9e1;
+  font-size: 1.5rem;
+}
+
+.boton-home2:hover{
+    transform: scale(1.2);
+}
+
+.rrss{
+  margin-top: 12%;
+}
+
+.rrss-hr{
+
+  margin-top: 25%;
+}
+
+.imagen-intro-home{
+  width: 800px;
+  height: auto;
+}
+
+.conocenos-parrafo{
+  font-size: 1.7rem;
+  padding-top: 40px; 
+}
+
+.parrafo-como-funciona{
+  font-size: 1.5rem;
+}
+
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 500px){
