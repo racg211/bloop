@@ -20,7 +20,7 @@ hr{
 
 .background2{
   background-image: url("../assets/PNG/Division.png");
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   width: auto;
@@ -86,6 +86,11 @@ hr{
 
 .padding-logo{
   padding-top: 10px;
+}
+
+.tamaño-logo{
+  width: 200px;
+  height: auto;
 }
 
 .boton-home1{
@@ -346,7 +351,7 @@ input.form-control:focus{
 
   background-color: transparent;
 
-  background-color: rgba(41, 169, 224, 0.9);
+
 
   border-color: transparent;
   color: white;
@@ -354,7 +359,7 @@ input.form-control:focus{
 
 textarea.form-control:focus{
   background-color: transparent;
-  background-color: rgba(41, 169, 224, 0.9);
+
   border-color: transparent;
   color: white;
 }
@@ -436,7 +441,7 @@ z-index:1;
 
 .conocenos-parrafo{
   font-size: 1.7rem;
-  padding-top: 40px; 
+  padding-top: 40px;
 }
 
 .parrafo-como-funciona{
@@ -456,7 +461,27 @@ z-index:1;
     display: none;
   }
 
+  .texto-inicio{
+    text-align: center;
+  }
+
+  .parrafo-inicio{
+    text-align: center;
+  }
+
   .img-conocenos{
+    display: none;
+  }
+
+  .boton-home1{
+    margin-left: 13%;
+  }
+
+  .rrss{
+    margin-left: 35%;
+  }
+
+  .rrss-hr{
     display: none;
   }
 
@@ -464,11 +489,54 @@ z-index:1;
     background-image: none;
   }
 
+  .h2-conocenos{
+    margin-top: 20%;
+  }
+
   section{
     height: auto;
   }
 
   .full{
-    display: auto;
+    height: auto !important;
   }
+
+  .tamaño-logo{
+    width: 100px;
+    height: auto;
+  }
+
+  .padding-logo{
+    padding-top: 0 !important;
+  }
+
+  .slide-up{
+    transform: translateY(-90px);
+  }
+
+  .img-contact{
+    display: none;
+  }
+
+  .more{
+    display: none;
+  }
+
+  .rd-1{
+    display: none;
+  }
+
+  .rd1{
+    text-align: center;
+  }
+
+  .trabaja-con-nosotros{
+    display: none;
+  }
+
+  .owl-carousel .owl-item img{
+    width: 100px;
+    height: auto;
+  }
+
 }
