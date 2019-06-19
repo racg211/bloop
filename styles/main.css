@@ -526,6 +526,17 @@ label{
   font-size: 1.5rem;
 }
 
+.boton-enviar{
+  background-color:#29a9e1;
+  width: 170px;
+  height: auto;
+  font-size: 1.5rem;
+  color: #030819;
+  border-radius: 40px;
+  border-color: #29a9e1;
+  box-shadow: 3px 5px black;
+}
+
 }
 
 
