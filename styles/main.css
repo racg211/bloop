@@ -396,22 +396,23 @@ z-index:1;
 
 
 @media screen and (min-width: 1367px){
-  .texto-inicio{
-    font-size: 5.5rem;
+  
+  .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 1.4rem;
   }
 
-  .parrafo-inicio{
-    font-size: 1.8rem;
 
+  .texto-inicio{
+    font-size: 4.5rem;
   }
 
   .boton-home1{
-  width: 180px;
+  width: 250px;
   height: auto;
   border-radius: 40px;
   background:  #29a9e1;
   color: #030819;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .boton-home1:hover{
@@ -420,14 +421,14 @@ z-index:1;
 
 
 .boton-home2{
-  width: 180px;
+  width: 250px;
   height: auto;
   border-radius: 40px;
   background:  rgba(41, 169, 224, 0.3);
   margin-left: 5%;
   color: white;
   border: 2px solid #29a9e1;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .boton-home2:hover{
@@ -443,15 +444,50 @@ z-index:1;
   margin-top: 25%;
 }
 
+
+
 .imagen-intro-home{
-  width: 800px;
+  width: 850px;
+  height: 1300;
+}
+
+.tamaño-logo{
+  width: 250px;
   height: auto;
+  padding-top: 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: white;
+  
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.parrafo-inicio{
+  font-size: 1.7rem;
+  font-family:Helvetica, sans-serif;
+
+}
+
+.h2-conocenos{
+  font-size: 3rem;
 }
 
 .conocenos-parrafo{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding-top: 40px;
+  font-family: Helvetica, sans-serif;
 }
+
+.img-conocenos{
+  width: 100%;
+  height: 700px;
+ 
 
 .parrafo-como-funciona{
   font-size: 1.5rem;
@@ -469,6 +505,7 @@ z-index:1;
   .img-inicial{
     display: none;
   }
+
 
   .texto-inicio{
     text-align: center;
