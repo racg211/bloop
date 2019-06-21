@@ -431,7 +431,7 @@ textarea.form-control:focus{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 20rem;
+  height: 15rem;
 }
 
 .comofunciona-img{
