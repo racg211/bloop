@@ -12,7 +12,7 @@
     	},
     	300:{ 
 
-    		items: 3,
+    		items: 2,
     		nav: true    	
     	},
     	768:{
