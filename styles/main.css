@@ -44,6 +44,7 @@ hr{
 
 
 
+
 .fill {
     overflow: hidden;
     background-size: 100% 100%;
@@ -805,8 +806,18 @@ label{
 }
 
 .blog{
-  padding-left: 4%;
   padding-right: 4%;
+}
+
+.navbar-collapse{
+  background-color: #030819;
+  height: 100vh;
+}
+
+.navbar{
+  background-color: #030819;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 }
