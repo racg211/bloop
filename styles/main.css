@@ -426,18 +426,7 @@ textarea.form-control:focus{
 }
 
 
-.col-como-funciona{
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 15rem;
-}
 
-.comofunciona-img{
-  height: 20%;
-  width: 100%;
-}
 
 
 
@@ -583,6 +572,7 @@ background: #ffa;
 
   margin-top: 25%;
 }
+
 
 
 
@@ -732,7 +722,9 @@ label{
     display: none;
   }
 
-  
+  .padding-img-serv{
+    padding: 10px;
+  }
 
   .rrss{
     margin-left: 35%;
