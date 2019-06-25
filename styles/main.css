@@ -788,8 +788,17 @@ label{
     height: auto;
   }
 
+  .boton-home1{
+    width: 130px;
+ }
 
+ .boton-home2{
+  width: 130px;
+}
   
+.title-carousel{
+  font-size: 1rem;
+}
 
 }
 
