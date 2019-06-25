@@ -42,7 +42,9 @@ hr{
   padding-left: 5%;
 }
 
-
+.rd-hr{
+  display: none;
+}
 
 
 .fill {
@@ -819,6 +821,10 @@ label{
   background-color: #030819;
   padding-left: 0;
   padding-right: 0;
+}
+
+.rd-hr{
+  display: block;
 }
 
 }

@@ -29,7 +29,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
     var scroll = $(window).scrollTop();
       if (scroll > 1) {
-        $(".navbar").css("background-color" , "rgba(192, 192, 192, 1)");
+        $(".navbar").css("background-color" , "rgba(192, 192, 192, 0.3)");
       }
 
       else{
