@@ -590,7 +590,7 @@ background: #ffa;
 
 .imagen-intro-home{
   width: 850px;
-  height: 1300px;
+  height: auto;
 }
 
 .tamaño-logo{
