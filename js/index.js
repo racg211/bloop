@@ -56,7 +56,13 @@ window.onscroll = function() {
 }
 
 
+const links = document.querySelectorAll('.navbar-expand-lg .navbar-nav .nav-link');
 
+const navbar = document.querySelector('.navbar-collapse.collapse.show');
+
+links.forEach(link=> {
+    link.addEventListener("click", ()=> navbar.classList.remove('show'));
+});
 
 
 
